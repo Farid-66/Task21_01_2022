@@ -1,0 +1,46 @@
+header {
+  @include bg_img;
+  .container {
+    .row {
+      .col-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 710px;
+
+        .title {
+          position: absolute;
+          z-index: 1;
+          text-align: center;
+          h1 {
+            color: white;
+            font-family: var(--font-family);
+            font-size: 50px;
+            span{
+              color: var(--color-red);
+            }
+          }
+          p {
+            color: white;
+          }
+
+          a{
+              text-decoration: none;
+              margin-top: 50px;
+              border: 1px solid #5e5e5e;
+              display: inline-block;
+              color: #CCCCCC;
+              padding: 12px 35px;
+              border-radius: 50px;
+
+              &:hover{
+                  color: black;
+                  background-color: #CCCCCC;
+              }
+
+          }
+        }
+      }
+    }
+  }
+}

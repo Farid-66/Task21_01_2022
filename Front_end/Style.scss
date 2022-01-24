@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Work+Sans:wght@200;500&display=swap');
+@import "_mixin";
+@import "_Navbar";
+@import "_Header";
+@import "_Main";
+@import "_Footer";
+:root{
+    --font-family:"Oleo Script Swash Caps";
+    --font-family1:'Work Sans', sans-serif;
+    --color-red:#EB233C;
+    --color-text:#333;
+};

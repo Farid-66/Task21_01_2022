@@ -1,0 +1,49 @@
+footer {
+  padding: 25px 0px;
+  .container {
+    .row {
+      .col-12 {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+          display: flex;
+          align-items: center;
+          p {
+            margin: unset;
+          }
+        }
+
+        .social_media {
+          display: flex;
+          align-items: center;
+          ul {
+            list-style-type: none;
+            padding: unset;
+            display: flex;
+            margin: unset;
+            li {
+              padding: 4px;
+              a {
+                color: white;
+                font-size: 22px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                background-color: #222222;
+                text-decoration: none;
+
+                &:hover{
+                  background-color: var(--color-red);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
